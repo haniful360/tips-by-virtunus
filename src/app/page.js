@@ -63,7 +63,7 @@ const Home = async () => {
     <div>
       <main>
         <section className="max-w-[1280px] mx-auto mt-[30px] mb-[100px] relative">
-          <div className="lg:flex justify-between">
+          <div className="lg:flex justify-between mt-32 lg:mt-0">
             <div>
               <select defaultValue={'DEFAULT'}  className="border text-[14px] text-[#000000D9] w-[120px] px-2 h-[33px] rounded-md" name=""
                 id="">
@@ -162,7 +162,7 @@ const Home = async () => {
 
           {/* <!-- card option --> */}
           <div className="mt-[40px] category-card relative">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[30px]">
               {
                 books.map(book => <TipsCard
                   key={book._id}
