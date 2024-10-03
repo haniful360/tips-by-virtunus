@@ -16,6 +16,7 @@ const TipsCard = (props) => {
         setIsShow(false);
     }
 
+
     const { name, picture } = props.book;
 
 

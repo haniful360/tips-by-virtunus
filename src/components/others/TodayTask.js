@@ -38,7 +38,7 @@ const TodayTask = () => {
         <div>
             <div className={`${montserrat.className}`}>
                 <h2 className="font-bold text-[20px] mb-5">Today <br /> <span className="text-[#3161F1]">Mon, 15 January</span></h2>
-                <h2 className="font-bold text-[18px] leading-[22px] text-[#222222] pb-4 border{-b-2 border-[#DCDCDC] ">To-do</h2>
+                <h2 className="font-bold text-[18px] leading-[22px] text-[#222222] pb-4 border-b-2 border-[#DCDCDC] ">To-do</h2>
             </div>
             {todaytask.map((task, index) => (
                 <div key={task.id}>
