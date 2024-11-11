@@ -21,48 +21,6 @@ const lato = Lato({
 })
 
 
-// const Sidebar = (props) => {
-//     // console.log(props);
-//     const { toggleState, setToggleState } = props;
-
-//     const handlTtoggleTab = (index) => {
-//         setToggleState(index);
-
-//     }
-//     return (
-//         <div className='lg:w-[269px] sticky top-5 lg:fixed lg:top-20 h-full   border-r'>
-//             <div className='pt-[60px] p'>
-//                 <div>
-//                     <h2 className={`${montserrat.className} px-2 lg:px-0 text-[11px] lg:text-[18px] md:leading-[22px] md:tracking-wider text-center lg:text-left uppercase lg:font-bold text-[#222222]`}> Task Dashboard
-//                     </h2>
-//                 </div>
-//                 <div>
-//                     <div className={`${lato.className} mt-[34px] px-2 lg:px-0`}>
-//                         <Link onClick={() => handlTtoggleTab(1)} href='' className={`hover:text-[#8CA9FF] transition duration-200 flex items-center gap-2 lg:gap-[18px] pt-1.5 pb-2${toggleState === 1 ? 'text-blue-600':''}`}>
-//                             <MdToday className='lg:text-[25px] opacity-50' />
-//                             <span className='leading-[17px] text-[14px] font-bold hover:text-[#8CA9FF]'>Today</span>
-//                         </Link>
-//                         <Link onClick={() => handlTtoggleTab(2)} href='' className={`hover:text-[#8CA9FF] transition duration-200 flex items-center gap-2 lg:gap-[18px] pt-1.5 pb-2 my-2${toggleState === 2 ? 'text-white': ''}`}>
-//                             <MdOutlineCalendarToday className='lg:w-[25px] lg:h-[25px] opacity-50' />
-//                             <span className='leading-[17px] text-[14px] font-bold'>Upcoming</span>
-//                         </Link>
-//                         <Link onClick={() => handlTtoggleTab(3)} href='' className={`${toggleState === 3 ? 'text-[25px]': ''}hover:text-[#8CA9FF] transition duration-200 flex items-center gap-2 lg:gap-[18px] pt-1.5`}>
-//                             <FaRegCalendarXmark className='lg:w-[25px] lg:h-[25px] opacity-50' />
-//                             <span className='leading-[17px] text-[14px] font-bold hover:text-[#8CA9FF] '>Overdue</span>
-//                         </Link>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-
-//     );
-// };
-
-// export default Sidebar;
-
-
-// ... (previous imports)
-
 const Sidebar = (props) => {
     const { toggleState, setToggleState } = props;
 
