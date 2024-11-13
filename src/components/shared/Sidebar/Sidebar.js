@@ -20,6 +20,7 @@ const lato = Lato({
     display: 'swap',
 })
 
+
 const Sidebar = (props) => {
     const { toggleState, setToggleState } = props;
 
